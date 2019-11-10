@@ -7,10 +7,10 @@ var PORT = 3000;
 // REQUIRE MIDDLEWARE
 var instantMongoCrud = require('express-mongo-crud'); // require the module
 
-mongoose.connect('localhost:27017/mongocrud');
+mongoose.connect('db:27017/mongocrud');
 
 var options = { //specify express-mongo-crud options
-	host: `db:${PORT}`
+	host: `localhost:${PORT}`
 }
 
 //USE AS MIDDLEWARE
