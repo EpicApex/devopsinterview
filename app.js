@@ -10,7 +10,7 @@ var instantMongoCrud = require('express-mongo-crud'); // require the module
 mongoose.connect('localhost:27017/mongocrud');
 
 var options = { //specify express-mongo-crud options
-	host: `localhost:${PORT}`
+	host: `db:${PORT}`
 }
 
 //USE AS MIDDLEWARE
