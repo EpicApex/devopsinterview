@@ -6,4 +6,4 @@
 4. please share the Jenkins administrator password - required for the Jenkins instance installation (print screen is enough), and which docker command do you use to get the password.
 
 
-please work on your own branch.
+please work on your public user and send us link.
