@@ -1,0 +1,30 @@
+version: "2"
+services:
+  app:
+    container_name: app
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data:/Users/oblivion/data/db
+    ports:
+      - "27017:27017"
+  jenkins:
+    image: 'jenkinsci/blueocean'
+    ports:
+      - '80:8080'
+      - '443:8443'
+      - '50000:50000'
+    volumes:
+      - ./jenkins_data:/var/jenkins_home
+      - ./home:/home
+      - /var/run/docker.sock:/var/run/docker.sock
+volumes:
+  jenkins_data:
+    driver: local
