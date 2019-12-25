@@ -439,6 +439,9 @@
   color: #eeeeee;
   cursor: pointer;
 }
+#add-item-panel form > .footer .btn-decorator button[type=submit]:active:not(.disabled) {
+  box-shadow: inset 0px 1px 6px 2px #1b2b33;
+}
 #add-item-panel form > .footer .btn-decorator button[type=submit].disabled {
   background-color: #ccc;
   border-color: #aaa;

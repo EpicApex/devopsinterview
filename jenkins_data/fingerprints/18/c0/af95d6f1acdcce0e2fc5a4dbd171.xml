@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-25 14:08:08.541 UTC</timestamp>
+  <md5sum>18c0af95d6f1acdcce0e2fc5a4dbd171</md5sum>
+  <fileName>Credential id=dockerhub name=bonvoyage/******</fileName>
+  <usages>
+    <entry>
+      <string>docker-build-pipeline</string>
+      <ranges>12</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.0">
+      <timestamp>1577282888435</timestamp>
+      <itemFullName>docker-build-pipeline</itemFullName>
+      <timestamp0>1577282888435</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
