@@ -10,6 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
+            sh 'apt-get install sudo -y'
             sh 'sudo chmod 777 /var/run/docker.sock'
             app = docker.build("devopsinterview")
     }
