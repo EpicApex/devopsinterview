@@ -8,16 +8,16 @@ services:
       - "3000:3000"
     links:
       - db
-      - socat
-    environment:
-      - DOCKER_HOST=tcp://socat:2375
-  socat:
-     image: bpack/socat
-     command: TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock
-     volumes:
-        - /var/run/docker.sock:/var/run/docker.sock
-     expose:
-        - "2375"
+  #     - socat
+  #   environment:
+  #     - DOCKER_HOST=tcp://socat:2375
+  # socat:
+  #    image: bpack/socat
+  #    command: TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock
+  #    volumes:
+  #       - /var/run/docker.sock:/var/run/docker.sock
+  #    expose:
+  #       - "2375"
   db:
     container_name: mongo
     image: mongo
@@ -35,6 +35,7 @@ services:
       - ./jenkins_data:/var/jenkins_home
       - ./home:/home
       - /var/run/docker.sock:/var/run/docker.sock
+      
 volumes:
   jenkins_data:
     driver: local
