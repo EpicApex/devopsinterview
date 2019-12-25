@@ -9,10 +9,9 @@ node {
 
     stage('Build image') {
         /* This builds the actual image */
-        bash '''
-             #!/bin/bash
-                sudo chmod 777 /var/run/docker.sock
-             '''
+
+                /*sudo chmod 777 /var/run/docker.sock*/
+
             app = docker.build("devopsinterview")
     }
 
