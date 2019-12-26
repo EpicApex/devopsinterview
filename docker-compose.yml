@@ -26,7 +26,7 @@ services:
     ports:
       - "27017:27017"
   jenkins:
-    image: jenkins/jenkins
+    image: 'jenkinsci/blueocean'
     user: root
     ports:
       - '80:8080'
