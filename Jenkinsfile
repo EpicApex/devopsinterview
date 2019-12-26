@@ -9,8 +9,7 @@ node {
 
     stage('Build image') {
         /* This builds the actual image */
-            sh 'chmod 777 /var/run/docker.sock'
-            app = docker.build("devopsinterview")
+        app = docker.build("devopsinterview")
     }
 
     stage('Test image') {
