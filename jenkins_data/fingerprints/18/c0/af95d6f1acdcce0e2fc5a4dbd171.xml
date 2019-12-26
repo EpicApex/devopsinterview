@@ -6,14 +6,14 @@
   <usages>
     <entry>
       <string>docker-build-pipeline</string>
-      <ranges>12-25</ranges>
+      <ranges>12-26</ranges>
     </entry>
   </usages>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.0">
-      <timestamp>1577361136187</timestamp>
+      <timestamp>1577361306476</timestamp>
       <itemFullName>docker-build-pipeline</itemFullName>
-      <timestamp0>1577361032261</timestamp0>
+      <timestamp0>1577361136187</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
