@@ -9,8 +9,9 @@ node {
 
     stage('Build image') {
         /* This builds the actual image */
-        sh "docker run --rm -d --group-add $(stat -c '%g' /var/run/docker.sock) -v /var/run/docker.sock:/var/run/docker.sock -P devopsinterview"
         sh "docker build -t devopsinterview ."
+                sh "docker run --rm -d --group-add -v /var/run/docker.sock:/var/run/docker.sock -P devopsinterview"
+
         // app = docker.build("devopsinterview")
     }
 
