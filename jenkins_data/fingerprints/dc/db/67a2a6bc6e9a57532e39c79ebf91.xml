@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:21:54.15 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>50</number>
+  </original>
+  <md5sum>dcdb67a2a6bc6e9a57532e39c79ebf91</md5sum>
+  <fileName>Docker image sha256:dcdb67a2a6bc6e9a57532e39c79ebf913a0d277194f268a1b4bd1b052490b6e5</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577575314031</timestamp>
+      <imageId>sha256:dcdb67a2a6bc6e9a57532e39c79ebf913a0d277194f268a1b4bd1b052490b6e5</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>50</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>698c29338862</host>
+          <containerId>698c2933886216c9064aba2530fcdae908f6b497edccb3f930e1b00bd6928e7c</containerId>
+          <containerName>/angry_hertz</containerName>
+          <created>1577575312000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
