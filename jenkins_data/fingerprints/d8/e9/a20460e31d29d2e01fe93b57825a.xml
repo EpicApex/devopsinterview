@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:11:47.190 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>47</number>
+  </original>
+  <md5sum>d8e9a20460e31d29d2e01fe93b57825a</md5sum>
+  <fileName>Docker image sha256:d8e9a20460e31d29d2e01fe93b57825a65f773d0a556222017767148d121ec36</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577574707202</timestamp>
+      <imageId>sha256:d8e9a20460e31d29d2e01fe93b57825a65f773d0a556222017767148d121ec36</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>47</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>19ec139dcc34</host>
+          <containerId>19ec139dcc3468e67dd439240c5d3c95aa83ef2536604687bb5a0fd4331e4463</containerId>
+          <containerName>/distracted_maxwell</containerName>
+          <created>1577574705000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
