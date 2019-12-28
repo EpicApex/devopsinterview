@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:09:10.410 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>37</number>
+  </original>
+  <md5sum>ee271937c30f938d01fde82d51da843b</md5sum>
+  <fileName>Docker image sha256:ee271937c30f938d01fde82d51da843bbdfd516dca1a362625c0518baaf2a02c</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577570950424</timestamp>
+      <imageId>sha256:ee271937c30f938d01fde82d51da843bbdfd516dca1a362625c0518baaf2a02c</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>37</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>da8120dae327</host>
+          <containerId>da8120dae3276d6de5a530daee5d24863a41093c6b1625fd8c93929952c4769e</containerId>
+          <containerName>/wonderful_solomon</containerName>
+          <created>1577570949000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
