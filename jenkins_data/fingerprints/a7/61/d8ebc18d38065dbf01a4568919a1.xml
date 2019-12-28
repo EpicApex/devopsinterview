@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:25:14.686 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>51</number>
+  </original>
+  <md5sum>a761d8ebc18d38065dbf01a4568919a1</md5sum>
+  <fileName>Docker image sha256:a761d8ebc18d38065dbf01a4568919a1a261ad980d354708f10ac0568a83c9c7</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577575514702</timestamp>
+      <imageId>sha256:a761d8ebc18d38065dbf01a4568919a1a261ad980d354708f10ac0568a83c9c7</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>51</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>83bac1549c33</host>
+          <containerId>83bac1549c33bea963a8b4cc4fa674850242e1fe68d9695c89cd4a6f2e31c7df</containerId>
+          <containerName>/jovial_pasteur</containerName>
+          <created>1577575513000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
