@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:45:31.363 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>58</number>
+  </original>
+  <md5sum>3c1ae2f010eb7d9660cc65b5ea0af444</md5sum>
+  <fileName>Docker image sha256:3c1ae2f010eb7d9660cc65b5ea0af4442f5f4d4c9018c10dde22c2cd482da124</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577576731378</timestamp>
+      <imageId>sha256:3c1ae2f010eb7d9660cc65b5ea0af4442f5f4d4c9018c10dde22c2cd482da124</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>58</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>9fcc5b60ceba</host>
+          <containerId>9fcc5b60ceba9538f5319440ff2e736fa17809b1b222681c15ed2e994f7963fd</containerId>
+          <containerName>/sleepy_curie</containerName>
+          <created>1577576729000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
