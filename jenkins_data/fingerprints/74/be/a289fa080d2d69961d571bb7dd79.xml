@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:58:03.748 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>44</number>
+  </original>
+  <md5sum>74bea289fa080d2d69961d571bb7dd79</md5sum>
+  <fileName>Docker image sha256:74bea289fa080d2d69961d571bb7dd7942c6623b9b849753374d00049e033e63</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577573883775</timestamp>
+      <imageId>sha256:74bea289fa080d2d69961d571bb7dd7942c6623b9b849753374d00049e033e63</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>44</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>b3028568a15f</host>
+          <containerId>b3028568a15f6e921af72b74118c44496365bc3cb72fb96424a3c749f194fbaa</containerId>
+          <containerName>/infallible_moore</containerName>
+          <created>1577573882000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
