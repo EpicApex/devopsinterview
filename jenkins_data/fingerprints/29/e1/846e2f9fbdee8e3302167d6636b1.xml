@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:14:10.229 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>48</number>
+  </original>
+  <md5sum>29e1846e2f9fbdee8e3302167d6636b1</md5sum>
+  <fileName>Docker image sha256:29e1846e2f9fbdee8e3302167d6636b1d03ef3bdf21525fc717fa89aaa496b6d</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577574850244</timestamp>
+      <imageId>sha256:29e1846e2f9fbdee8e3302167d6636b1d03ef3bdf21525fc717fa89aaa496b6d</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>48</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>fc8a067100f0</host>
+          <containerId>fc8a067100f0b8a5997d37e0e407cf665736ab08ba16c37e11d6bdd5844d1694</containerId>
+          <containerName>/cool_napier</containerName>
+          <created>1577574848000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
