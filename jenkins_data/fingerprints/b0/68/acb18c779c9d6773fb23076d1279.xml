@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:17:20.390 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>49</number>
+  </original>
+  <md5sum>b068acb18c779c9d6773fb23076d1279</md5sum>
+  <fileName>Docker image sha256:b068acb18c779c9d6773fb23076d12799669d8add9a78236f9a4e8bc6fd77bd8</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577575040405</timestamp>
+      <imageId>sha256:b068acb18c779c9d6773fb23076d12799669d8add9a78236f9a4e8bc6fd77bd8</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>49</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>8a9b806e1309</host>
+          <containerId>8a9b806e13094217be7166edd2f7203897852e678b010bbf618cffab80730e5b</containerId>
+          <containerName>/gallant_stonebraker</containerName>
+          <created>1577575039000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
