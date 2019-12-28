@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:11:34.284 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>38</number>
+  </original>
+  <md5sum>83ddc5f707c734053769bca625cfa6e9</md5sum>
+  <fileName>Docker image sha256:83ddc5f707c734053769bca625cfa6e9a58aeb9d0322fddaff3c62a5cdd88de2</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577571094298</timestamp>
+      <imageId>sha256:83ddc5f707c734053769bca625cfa6e9a58aeb9d0322fddaff3c62a5cdd88de2</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>38-39</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>37369615e81a</host>
+          <containerId>37369615e81a941b5113f1bbb82949698ceb172864f59e4ba5f3953cc821851a</containerId>
+          <containerName>/upbeat_murdock</containerName>
+          <created>1577571092000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>4e1f30465c84</host>
+          <containerId>4e1f30465c84c87a2e62d50eaf8d3cbb45ce0351b6b6b3097ca2203389fc52fe</containerId>
+          <containerName>/affectionate_mclean</containerName>
+          <created>1577572331000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
