@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:07:03.994 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>46</number>
+  </original>
+  <md5sum>b3c8e1746e01fa3a2d1964d65c2c4455</md5sum>
+  <fileName>Docker image sha256:b3c8e1746e01fa3a2d1964d65c2c44559acb74de82721d4e779d4662a91dbe3e</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577574424026</timestamp>
+      <imageId>sha256:b3c8e1746e01fa3a2d1964d65c2c44559acb74de82721d4e779d4662a91dbe3e</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>46</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>073f10249f08</host>
+          <containerId>073f10249f080768e070dc637107da0f97e2e8eeae82a16d02a81021477d984a</containerId>
+          <containerName>/goofy_hoover</containerName>
+          <created>1577574422000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
