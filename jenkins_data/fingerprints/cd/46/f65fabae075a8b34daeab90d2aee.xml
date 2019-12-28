@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:30:52.509 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>53</number>
+  </original>
+  <md5sum>cd46f65fabae075a8b34daeab90d2aee</md5sum>
+  <fileName>Docker image sha256:cd46f65fabae075a8b34daeab90d2aee97fc9ef193b2140d0841980d3c62e735</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577575852521</timestamp>
+      <imageId>sha256:cd46f65fabae075a8b34daeab90d2aee97fc9ef193b2140d0841980d3c62e735</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>53</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>4e316558f7d3</host>
+          <containerId>4e316558f7d361cc1a095cfa132530928f73c3139432d8cdb2a01d13eb2a1d70</containerId>
+          <containerName>/relaxed_shockley</containerName>
+          <created>1577575851000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
