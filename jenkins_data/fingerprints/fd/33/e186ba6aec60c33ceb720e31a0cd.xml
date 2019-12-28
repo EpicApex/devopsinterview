@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:27:18.23 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>52</number>
+  </original>
+  <md5sum>fd33e186ba6aec60c33ceb720e31a0cd</md5sum>
+  <fileName>Docker image sha256:fd33e186ba6aec60c33ceb720e31a0cd0a2b3042952e1d60383bdc0e00a58f75</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577575638036</timestamp>
+      <imageId>sha256:fd33e186ba6aec60c33ceb720e31a0cd0a2b3042952e1d60383bdc0e00a58f75</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>52</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1f5d976ab606</host>
+          <containerId>1f5d976ab6064ab7f401470c3a3ea623782f800134ce43bf59a880b93469b1bf</containerId>
+          <containerName>/eager_shaw</containerName>
+          <created>1577575636000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
