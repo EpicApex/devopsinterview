@@ -1,0 +1,82 @@
+commit 5881d3976e8be2898ad67a946a90ad42a22fa856
+tree 8e80e7d4c210683376649639437b6458e675a33a
+parent 8051ece8b0adde43ddcfd2e4d712ae0cfc475fbd
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-28 23:21:05 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-28 23:21:05 +0200
+
+    22/n attempt - installed docker client binaries on container
+
+
+:100644 100644 6600cdd9c3683553e3a0d71f810ec2d827ccf1a2 e7c1fd6c53bb35f76f7ad2604707fe4297185268 M	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 66a8ba94c7d0c22ee1fe3b9e9bb77ba11a66e74d A	jenkins_data/.java/fonts/1.8.0_212/fcinfo-1-5c9595d52ece-Linux-4.9.184-linuxkit-en.properties
+:000000 100644 0000000000000000000000000000000000000000 b91e78bdab11b7f4093feafdb05cdcc241430648 A	jenkins_data/.java/fonts/1.8.0_212/fcinfo-1-71a4a13de144-Linux-4.9.184-linuxkit-en.properties
+:100644 000000 56044cef92338717ffe87ad7d71226f1323c0f5d 0000000000000000000000000000000000000000 D	jenkins_data/queue.xml
+:100644 100644 e89284dc53b7143a0570e276b6a12ddd215fd2d6 56044cef92338717ffe87ad7d71226f1323c0f5d M	jenkins_data/queue.xml.bak
+:100644 100644 10a2eb048d69f5f6c9ac57e310e29a627519bc93 a4cba19b328dccc4261738838d052c08364a5c7b M	jenkins_data/updates/default.json
+commit 8051ece8b0adde43ddcfd2e4d712ae0cfc475fbd
+tree 7e5617948ec3d928ed1ce6ce42d6d2d04cbdcf33
+parent d60c5758cc06ce97084dba527f86e07092463dee
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-28 22:00:04 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-28 22:00:04 +0200
+
+    21/n attempt - Removed Init of docker
+
+
+:100644 100644 6ffc67d60e12b72d8496a490df43fb4605877aa0 2ccce6a572c59d5a939de4ab94161d37f6241545 M	Jenkinsfile
+commit d60c5758cc06ce97084dba527f86e07092463dee
+tree 07f934a6266f3ec0238072d26ee53aaf0c617d7d
+parent 2d642705cbdd7930e929cf0d28180e1232f09024
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-28 21:52:53 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-28 21:52:53 +0200
+
+    20/n attempt - Add init of docker to Jenkinsfile
+
+
+:100644 100644 a83ef062744bbc46a3fba6b035e31df1329382c3 e5e3c204af92032a913c7f394fa8dd11d33b1f42 M	.DS_Store
+:100644 100644 1124ffbb9ea82672dc5e6f5c8dcbd71e9e319b67 6ffc67d60e12b72d8496a490df43fb4605877aa0 M	Jenkinsfile
+commit 2d642705cbdd7930e929cf0d28180e1232f09024
+tree 4b24d4399c42e879c8e0a7a7da3c9f43f1d01aec
+parent e1335413416b0c027e8bf4a0f67958a7148f1829
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-28 21:34:13 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-28 21:34:13 +0200
+
+    19/n attempt - Ran Jenkins service locally - trying to build docker image
+
+
+:100644 100644 7517a2808a109a810f85230bf624cb2d7b4e2eb9 a83ef062744bbc46a3fba6b035e31df1329382c3 M	.DS_Store
+:100644 100644 307854112b98a5a0d2175d48d304887fca936fb4 1124ffbb9ea82672dc5e6f5c8dcbd71e9e319b67 M	Jenkinsfile
+commit e1335413416b0c027e8bf4a0f67958a7148f1829
+tree 5925b5aa7cf2d4dcb88e4ad183315eb68546d17f
+parent 35b09c9d1b225299672ccfcc12075335be2aef58
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-26 15:16:32 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-26 15:16:32 +0200
+
+    18/n attempt - first build then run - Jenkinsfile.build
+
+
+:100644 100644 199ed326e599d32445e76ba48c63307ec14e1eed 70ed2c4143e7d4bfcda5352e5f3625a4f22c1dae M	docker-compose.yml
+:100644 100644 3c67a1fd0a165d7d96e65b3d2f714ecff36c408d bda8d8fbfd3bf741826307a78b98a07126ad810f M	jenkins_data/fingerprints/18/c0/af95d6f1acdcce0e2fc5a4dbd171.xml
+:000000 100644 0000000000000000000000000000000000000000 f0b35dec8d71a7a04b503fefdaa8a1db18a2e5af A	jenkins_data/jobs/docker-build-pipeline/builds/31/build.xml
+:000000 100644 0000000000000000000000000000000000000000 7e68e9e77fd178d439ff046cf25f35593bba0573 A	jenkins_data/jobs/docker-build-pipeline/builds/31/changelog5481254184805990240.xml
+:000000 100644 0000000000000000000000000000000000000000 d70ab5a56056a7a986a4114a3160b1bd7875751e A	jenkins_data/jobs/docker-build-pipeline/builds/31/log
+:000000 100644 0000000000000000000000000000000000000000 e8722b9bd68440e2606521a668e4383d1d6bc36c A	jenkins_data/jobs/docker-build-pipeline/builds/31/log-index
+:000000 100644 0000000000000000000000000000000000000000 0993dd3c5f123245fa969b9e6a02febb46e8958d A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/10.xml
+:000000 100644 0000000000000000000000000000000000000000 02c1716eb6d0db3221f8f0bd4809768ccb566b1b A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/11.xml
+:000000 100644 0000000000000000000000000000000000000000 8f3dc7d094691d0c88d1ab9511aebadf73a1d04f A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/12.xml
+:000000 100644 0000000000000000000000000000000000000000 2965576df0d6abd64f6b5dcf54d33f540e5fa409 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/13.xml
+:000000 100644 0000000000000000000000000000000000000000 b5eb946e37dfebd67ddca630f3735f72b69dd558 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/14.xml
+:000000 100644 0000000000000000000000000000000000000000 622bca5eb9ab879d3a536461160386444a73c9aa A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/15.xml
+:000000 100644 0000000000000000000000000000000000000000 47d81acbca5ded91ed5a27a6a16b020c947f3949 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/16.xml
+:000000 100644 0000000000000000000000000000000000000000 c123d007c1deb5dfb73a255dcfde307075b2454b A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/17.xml
+:000000 100644 0000000000000000000000000000000000000000 35f4ce9bf8f1f257caa16bb6ce2b2b22bae811e8 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/2.xml
+:000000 100644 0000000000000000000000000000000000000000 003a8882ac1a6f0869819210f238f6a1fb7c28ca A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/3.xml
+:000000 100644 0000000000000000000000000000000000000000 3418d28d02a9d0691da719ad96ac99f225865c7d A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/4.xml
+:000000 100644 0000000000000000000000000000000000000000 36a6911ceef287b73423c941ef4adc545b13a8c1 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/5.xml
+:000000 100644 0000000000000000000000000000000000000000 c37583b0f7a2c6e3ed09e57a87e1d25f23eacf0a A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/6.xml
+:000000 100644 0000000000000000000000000000000000000000 ddd0977f4b335936b88fd2852e926cdba711e31f A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/7.xml
+:000000 100644 0000000000000000000000000000000000000000 abd1dba8e513d6d994bba2e4b7ac647f85cdbc05 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/8.xml
+:000000 100644 0000000000000000000000000000000000000000 2ec8d430c587fcf5c30fe5807ca63cb1d64eaf83 A	jenkins_data/jobs/docker-build-pipeline/builds/31/workflow/9.xml
+:100644 100644 82178ea91a4bcd2f68d184802fdf4b9d09c3d105 6bb82b0199f8d6af9e27d936fd649b036643877a M	jenkins_data/jobs/docker-build-pipeline/builds/permalinks
+:100644 100644 e85087affded170efcbc6f9672a6fc671d839ed0 f5c89552bd3e62bfce023a230e90d141f7a46b2f M	jenkins_data/jobs/docker-build-pipeline/nextBuildNumber
+:100644 100644 e97e45afee0e6eb394f903460f68ff952f951683 56044cef92338717ffe87ad7d71226f1323c0f5d M	jenkins_data/queue.xml
+:160000 160000 d375cf3d7a23fddaa31c90dbf092331fa1ff8803 35b09c9d1b225299672ccfcc12075335be2aef58 M	jenkins_data/workspace/docker-build-pipeline
