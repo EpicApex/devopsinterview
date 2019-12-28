@@ -26,12 +26,12 @@ node {
         /* 
 			You would need to first register with DockerHub before you can push images to your account
 		*/
-        docker.withRegistry('https://docker.io/', 'dockerhub'){
+        docker.withRegistry('https://docker.io/library/devopsinterview', 'dockerhub'){
         }
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // app.push("${env.BUILD_NUMBER}")
             // sh 'docker tag devopsinterview .'
-            sh 'docker push devopsinterview'
+            sh 'docker push devopsinterview:latest'
             // app.push()
             } 
             echo "Trying to Push Docker Build to DockerHub"

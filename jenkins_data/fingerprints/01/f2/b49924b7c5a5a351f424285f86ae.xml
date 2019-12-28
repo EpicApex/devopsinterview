@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:42:53.777 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>57</number>
+  </original>
+  <md5sum>01f2b49924b7c5a5a351f424285f86ae</md5sum>
+  <fileName>Docker image sha256:01f2b49924b7c5a5a351f424285f86ae5d8f8c0911125b294522c21042b49b2f</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577576573789</timestamp>
+      <imageId>sha256:01f2b49924b7c5a5a351f424285f86ae5d8f8c0911125b294522c21042b49b2f</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>57</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>0a69b5f1d964</host>
+          <containerId>0a69b5f1d9648b19e20ed8d7ef8842cf062c9445b4b2fd348dac75b66fc86482</containerId>
+          <containerName>/relaxed_torvalds</containerName>
+          <created>1577576572000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
