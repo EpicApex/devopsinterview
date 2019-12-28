@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:37:12.949 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>55</number>
+  </original>
+  <md5sum>3395c9b1058d60b103642b89785daa8b</md5sum>
+  <fileName>Docker image sha256:3395c9b1058d60b103642b89785daa8be358f3112d09dd1852edf099d07756be</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577576232974</timestamp>
+      <imageId>sha256:3395c9b1058d60b103642b89785daa8be358f3112d09dd1852edf099d07756be</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>55</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>985e035588fc</host>
+          <containerId>985e035588fc4fefbb7d62dfbe27fc96a7836e8d123da9718d2767736d9c5ff2</containerId>
+          <containerName>/silly_chatelet</containerName>
+          <created>1577576231000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
