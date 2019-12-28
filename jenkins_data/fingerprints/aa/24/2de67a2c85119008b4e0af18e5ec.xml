@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:04:38.747 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>45</number>
+  </original>
+  <md5sum>aa242de67a2c85119008b4e0af18e5ec</md5sum>
+  <fileName>Docker image sha256:aa242de67a2c85119008b4e0af18e5ec310ed72ef2eed669b91bbc3c4ab5eb45</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577574278758</timestamp>
+      <imageId>sha256:aa242de67a2c85119008b4e0af18e5ec310ed72ef2eed669b91bbc3c4ab5eb45</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>45</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>3d2928dcc9ab</host>
+          <containerId>3d2928dcc9ab46a23cdbae39fa7e8608d74d70f795d7f198ba47e689b4be58cb</containerId>
+          <containerName>/trusting_easley</containerName>
+          <created>1577574277000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
