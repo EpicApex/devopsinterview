@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:53:11.346 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>42</number>
+  </original>
+  <md5sum>c1b20b11cdaf21e13ad296865bc77068</md5sum>
+  <fileName>Docker image sha256:c1b20b11cdaf21e13ad296865bc770684e8eed08b34df941b727995faca826ee</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577573591360</timestamp>
+      <imageId>sha256:c1b20b11cdaf21e13ad296865bc770684e8eed08b34df941b727995faca826ee</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>42</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1b58fc3d863d</host>
+          <containerId>1b58fc3d863d81f470d4ed04762168a7b9ec2000eb3d0420085275fc4d21d121</containerId>
+          <containerName>/funny_colden</containerName>
+          <created>1577573589000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
