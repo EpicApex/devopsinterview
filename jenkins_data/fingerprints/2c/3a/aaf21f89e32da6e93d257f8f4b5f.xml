@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:48:33.144 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>59</number>
+  </original>
+  <md5sum>2c3aaaf21f89e32da6e93d257f8f4b5f</md5sum>
+  <fileName>Docker image sha256:2c3aaaf21f89e32da6e93d257f8f4b5ff097414367025e61ff376eab536c703f</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577576913159</timestamp>
+      <imageId>sha256:2c3aaaf21f89e32da6e93d257f8f4b5ff097414367025e61ff376eab536c703f</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>59</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>7dcde55fa07b</host>
+          <containerId>7dcde55fa07b436b6038c0f25d34e29df19246f479d3023fe13a31af6d8e3500</containerId>
+          <containerName>/gifted_grothendieck</containerName>
+          <created>1577576911000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
