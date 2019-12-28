@@ -9,13 +9,15 @@ USER root
 
 #Creating new folder for the app management
 RUN mkdir -p /usr/src/app
+RUN curl -fsSL https://get.docker.com -o get-docker.sh \ 
+    sh get-docker.sh
 
 #WOKRDIR - set workdir on app created folder
 WORKDIR /usr/src/app
 
 # Dependencies wont have to be installed again by Docker, if you have changed the package.json file
-#Copy dependencies (package.json) to app 
-COPY package.json /usr/src/app/
+# Copy dependencies (package.json - package-lock.json) to app 
+COPY package*.json /usr/src/app/
 #installing npm
 RUN npm install
 #Copy everything to app folder
