@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>docker-build-pipeline</string>
-          <ranges>55</ranges>
+          <ranges>55-56</ranges>
         </entry>
       </usages>
       <records class="java.util.concurrent.CopyOnWriteArrayList">
@@ -24,6 +24,13 @@
           <containerId>985e035588fc4fefbb7d62dfbe27fc96a7836e8d123da9718d2767736d9c5ff2</containerId>
           <containerName>/silly_chatelet</containerName>
           <created>1577576231000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1f5c043e31c1</host>
+          <containerId>1f5c043e31c1406522687e54f597405148f25d5124c2604925bcca00c18d899b</containerId>
+          <containerName>/sad_mirzakhani</containerName>
+          <created>1577576354000</created>
           <tags/>
         </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
       </records>
