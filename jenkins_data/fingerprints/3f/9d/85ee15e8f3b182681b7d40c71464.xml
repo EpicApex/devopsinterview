@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:34:52.125 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>54</number>
+  </original>
+  <md5sum>3f9d85ee15e8f3b182681b7d40c71464</md5sum>
+  <fileName>Docker image sha256:3f9d85ee15e8f3b182681b7d40c7146442e7942a09759dcee70bebfe95f14c76</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577576092141</timestamp>
+      <imageId>sha256:3f9d85ee15e8f3b182681b7d40c7146442e7942a09759dcee70bebfe95f14c76</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>54</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2c6f9f771560</host>
+          <containerId>2c6f9f771560e6ae6d9d6f7a831d6860261399e0359a840199788da74f724c36</containerId>
+          <containerName>/admiring_knuth</containerName>
+          <created>1577576090000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
