@@ -29,7 +29,7 @@ node {
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // app.push("${env.BUILD_NUMBER}")
             sh 'docker tag devopsinterview devopsinterview:latest'
-            sh 'docker push devopsinterview:latest'
+            sh 'docker push https://hub.docker.com/repository/docker/bonvoyage/devopsinterview:latest'
             // app.push()
             } 
             echo "Trying to Push Docker Build to DockerHub"

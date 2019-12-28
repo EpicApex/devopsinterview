@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:50:12.772 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>41</number>
+  </original>
+  <md5sum>3ade07359b3cffd040b155958afccbb7</md5sum>
+  <fileName>Docker image sha256:3ade07359b3cffd040b155958afccbb7bbca628598461802902f1d9ee2ab4ab6</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577573412783</timestamp>
+      <imageId>sha256:3ade07359b3cffd040b155958afccbb7bbca628598461802902f1d9ee2ab4ab6</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>41</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>0590d076e81d</host>
+          <containerId>0590d076e81d2a542c2af9e8620ba52ec409f5d1612e6eda61a891ab7124d8a7</containerId>
+          <containerName>/ecstatic_volhard</containerName>
+          <created>1577573411000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
