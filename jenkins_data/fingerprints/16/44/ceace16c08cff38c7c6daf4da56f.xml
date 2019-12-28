@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 22:55:33.10 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>43</number>
+  </original>
+  <md5sum>1644ceace16c08cff38c7c6daf4da56f</md5sum>
+  <fileName>Docker image sha256:1644ceace16c08cff38c7c6daf4da56f30953e1c373989062d1631921e6cad6f</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577573733024</timestamp>
+      <imageId>sha256:1644ceace16c08cff38c7c6daf4da56f30953e1c373989062d1631921e6cad6f</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>43</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>99ea9aa8ee67</host>
+          <containerId>99ea9aa8ee672510e73afe8c575d92c8c5c1e694d5c1862b25d048cd4b5f4ad5</containerId>
+          <containerName>/magical_pasteur</containerName>
+          <created>1577573731000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
