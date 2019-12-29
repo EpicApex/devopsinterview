@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:20:00.496 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>64</number>
+  </original>
+  <md5sum>58d04e92ff0f8034a32594941443c96b</md5sum>
+  <fileName>Docker image sha256:58d04e92ff0f8034a32594941443c96bf1f03644b1755941e95bcc8d9092dfb4</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577578800512</timestamp>
+      <imageId>sha256:58d04e92ff0f8034a32594941443c96bf1f03644b1755941e95bcc8d9092dfb4</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>64</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>b6e908519962</host>
+          <containerId>b6e9085199627cda21817b0939cbf41235df95c767448016f0ffa2b84933d8dc</containerId>
+          <containerName>/eloquent_perlman</containerName>
+          <created>1577578799000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
