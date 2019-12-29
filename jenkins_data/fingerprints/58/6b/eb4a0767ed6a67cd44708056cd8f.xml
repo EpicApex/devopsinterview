@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 18:34:03.99 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>74</number>
+  </original>
+  <md5sum>586beb4a0767ed6a67cd44708056cd8f</md5sum>
+  <fileName>Docker image sha256:586beb4a0767ed6a67cd44708056cd8f5609f20dbe39e1c8ca51c117ab13fd5d</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577644443116</timestamp>
+      <imageId>sha256:586beb4a0767ed6a67cd44708056cd8f5609f20dbe39e1c8ca51c117ab13fd5d</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>74</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a3ec53a3b3f4</host>
+          <containerId>a3ec53a3b3f4e3fb6204a2994cbce4482a3c5c21adda557743f2636c011f168e</containerId>
+          <containerName>/agitated_wilbur</containerName>
+          <created>1577644441000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

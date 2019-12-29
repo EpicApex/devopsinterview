@@ -1,0 +1,10 @@
+commit 5488d4d627249b209149dff403b27807b50a052f
+tree e627699aa900eaa1e2e3f08249be984d26cf5826
+parent 75c0136c5071ff8842a19b8f4a72be3d1b2d4dcf
+author EpicApex <omrifreidenberg@gmail.com> 2019-12-29 20:31:17 +0200
+committer EpicApex <omrifreidenberg@gmail.com> 2019-12-29 20:31:17 +0200
+
+    60/n attempt - Jenkinsfile - removed commented sh
+
+
+:160000 160000 7003b34a29c3f46d6a84f0720be512d50b860494 75c0136c5071ff8842a19b8f4a72be3d1b2d4dcf M	jenkins_data/workspace/docker-build-pipeline

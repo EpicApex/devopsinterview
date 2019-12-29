@@ -8,7 +8,7 @@ node {
 
     stage('Build image') {
         /* This builds the actual image */
-        app = docker.build("bonvoyage/devopsinterview:1.1")
+        app = docker.build("bonvoyage/devopsinterview")
     }
 
     stage('Test image') {
@@ -26,7 +26,7 @@ node {
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // Jenkins build numberic build number's image
             app.push("${env.BUILD_NUMBER}")
-            app.push("bonvoyage/devopsinterview:1.1")
+            app.push("bonvoyage/devopsinterview")
             } 
             echo "Trying to Push Docker Build to DockerHub"
     }
