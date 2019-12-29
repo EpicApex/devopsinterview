@@ -12,7 +12,7 @@ node {
         // sh "docker build -t devopsinterview ."
         // sh "docker run --rm -d --group-add -v /var/run/docker.sock:/var/run/docker.sock -P devopsinterview"
 
-        app = docker.build("bonvoyage/devopsinterview")
+        app = docker.build("devopsinterview")
     }
 
     stage('Test image') {
@@ -31,7 +31,7 @@ node {
         }
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // app.push("${env.BUILD_NUMBER}")
-            sh 'docker tag bonvoyage/devopsinterview:latest bonvoyage/devopsinterviewdone:latest'
+            sh 'docker tag devopsinterview:latest bonvoyage/devopsinterview:latest'
             sh 'docker push bonvoyage/devopsinterview:latest'
             // app.push()
             } 
