@@ -26,7 +26,7 @@ node {
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // Jenkins build numberic build number's image
             app.push("${env.BUILD_NUMBER}")
-            app.push("bonvoyage/devopsinterview")
+            app.push("latest") /*"bonvoyage/devopsinterview"*/
             } 
             echo "Trying to Push Docker Build to DockerHub"
     }

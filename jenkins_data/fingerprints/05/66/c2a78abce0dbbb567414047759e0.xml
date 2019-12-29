@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 20:41:25.793 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>76</number>
+  </original>
+  <md5sum>0566c2a78abce0dbbb567414047759e0</md5sum>
+  <fileName>Docker image sha256:0566c2a78abce0dbbb567414047759e0c3d69d7311a85417d8cb515d8987d7a2</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577652085805</timestamp>
+      <imageId>sha256:0566c2a78abce0dbbb567414047759e0c3d69d7311a85417d8cb515d8987d7a2</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>76-77</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2da4d684944d</host>
+          <containerId>2da4d684944da68975087138e8b07ba4d4b99bb3b074ff3f4602ec10a4397818</containerId>
+          <containerName>/gifted_merkle</containerName>
+          <created>1577652084000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>81c75ca62ebf</host>
+          <containerId>81c75ca62ebf73f13d2bac68122d757d84756dc23677d0a1bf769ad47177adb2</containerId>
+          <containerName>/pensive_panini</containerName>
+          <created>1577653643000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
