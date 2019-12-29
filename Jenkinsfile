@@ -22,7 +22,7 @@ node {
         /* 
 			Login to hub.docker.com and docker.io before you can push images to your account
 		*/
-        docker.withRegistry('https://docker.io/', 'dockerhub'){}
+        /*docker.withRegistry('https://docker.io/', 'dockerhub'){} */
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
             // Jenkins build numberic build number's image
             app.push("${env.BUILD_NUMBER}")

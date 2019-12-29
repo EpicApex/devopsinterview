@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 20:02:45.952 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>75</number>
+  </original>
+  <md5sum>adb7fe7bdc207480ad2c167d1fc114a3</md5sum>
+  <fileName>Docker image sha256:adb7fe7bdc207480ad2c167d1fc114a386a15363ff9bce83656c55c9f4e70f77</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577649765967</timestamp>
+      <imageId>sha256:adb7fe7bdc207480ad2c167d1fc114a386a15363ff9bce83656c55c9f4e70f77</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>75</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>b7ad3164c015</host>
+          <containerId>b7ad3164c01572b5512eb7623943e8b419f5e6a0c6afe058ca5b517aaa78f57d</containerId>
+          <containerName>/loving_robinson</containerName>
+          <created>1577649764000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
