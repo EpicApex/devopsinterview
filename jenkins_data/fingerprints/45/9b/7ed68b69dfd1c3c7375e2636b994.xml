@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-28 23:55:57.140 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>60</number>
+  </original>
+  <md5sum>459b7ed68b69dfd1c3c7375e2636b994</md5sum>
+  <fileName>Docker image sha256:459b7ed68b69dfd1c3c7375e2636b99412e86a0a644283b6a71efa46e53449c2</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577577357152</timestamp>
+      <imageId>sha256:459b7ed68b69dfd1c3c7375e2636b99412e86a0a644283b6a71efa46e53449c2</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>60</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>cd8a4c128c01</host>
+          <containerId>cd8a4c128c01b9359124f40ff8e3e95c3107c0f081e6ba9f1ebfb344f06aa95f</containerId>
+          <containerName>/objective_tu</containerName>
+          <created>1577577355000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
