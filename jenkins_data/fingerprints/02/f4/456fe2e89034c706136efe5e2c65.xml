@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:22:42.735 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>65</number>
+  </original>
+  <md5sum>02f4456fe2e89034c706136efe5e2c65</md5sum>
+  <fileName>Docker image sha256:02f4456fe2e89034c706136efe5e2c65cad00526c28b9b04dbfc183ddba17af6</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577578962747</timestamp>
+      <imageId>sha256:02f4456fe2e89034c706136efe5e2c65cad00526c28b9b04dbfc183ddba17af6</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>65</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1cccac6f913f</host>
+          <containerId>1cccac6f913f8cb7d92be1ebad7f851ce7f36f7dd284052517ca803b00de561f</containerId>
+          <containerName>/elastic_jennings</containerName>
+          <created>1577578961000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

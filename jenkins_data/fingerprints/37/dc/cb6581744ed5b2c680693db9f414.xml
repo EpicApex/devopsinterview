@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:33:43.269 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>66</number>
+  </original>
+  <md5sum>37dccb6581744ed5b2c680693db9f414</md5sum>
+  <fileName>Docker image sha256:37dccb6581744ed5b2c680693db9f414d952b5ad1365ba8de5f2313601ee29fa</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577579623298</timestamp>
+      <imageId>sha256:37dccb6581744ed5b2c680693db9f414d952b5ad1365ba8de5f2313601ee29fa</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>66</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>c8c06839f727</host>
+          <containerId>c8c06839f7274ba840bd35d96038ce47b20bd68e31ec56779201db89ecded48a</containerId>
+          <containerName>/elegant_kepler</containerName>
+          <created>1577579621000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
