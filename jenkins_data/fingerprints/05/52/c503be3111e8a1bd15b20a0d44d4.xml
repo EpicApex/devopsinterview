@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:06:17.951 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>61</number>
+  </original>
+  <md5sum>0552c503be3111e8a1bd15b20a0d44d4</md5sum>
+  <fileName>Docker image sha256:0552c503be3111e8a1bd15b20a0d44d472407a93debd198523b6c7cc9debd911</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577577977966</timestamp>
+      <imageId>sha256:0552c503be3111e8a1bd15b20a0d44d472407a93debd198523b6c7cc9debd911</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>61</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>7240212feb1f</host>
+          <containerId>7240212feb1fa69bdb00428acf658e193d8fca57d6b020541d6543cb9044d640</containerId>
+          <containerName>/practical_ardinghelli</containerName>
+          <created>1577577976000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
