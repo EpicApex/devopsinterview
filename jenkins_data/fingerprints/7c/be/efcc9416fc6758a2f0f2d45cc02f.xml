@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:49:05.918 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>68</number>
+  </original>
+  <md5sum>7cbeefcc9416fc6758a2f0f2d45cc02f</md5sum>
+  <fileName>Docker image sha256:7cbeefcc9416fc6758a2f0f2d45cc02fcbb551e5e5ef367eab8f6f04b3b1f0ca</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577580545936</timestamp>
+      <imageId>sha256:7cbeefcc9416fc6758a2f0f2d45cc02fcbb551e5e5ef367eab8f6f04b3b1f0ca</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>68</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>97a91cd6a8a5</host>
+          <containerId>97a91cd6a8a571232f5d64ade029cdb04c4a91b1e4d5d8c7725a8bf0604af641</containerId>
+          <containerName>/silly_hugle</containerName>
+          <created>1577580544000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
