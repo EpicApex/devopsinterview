@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:12:25.920 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>62</number>
+  </original>
+  <md5sum>234dea4d682359b35fd9111a80f72b7d</md5sum>
+  <fileName>Docker image sha256:234dea4d682359b35fd9111a80f72b7d0598636d2d1f4e00b74a35b365220c03</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577578345931</timestamp>
+      <imageId>sha256:234dea4d682359b35fd9111a80f72b7d0598636d2d1f4e00b74a35b365220c03</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>62</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>191017c3dfc8</host>
+          <containerId>191017c3dfc83ef952d7eee945220638a37f364b95c3a11b914762a075072dff</containerId>
+          <containerName>/suspicious_darwin</containerName>
+          <created>1577578344000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
