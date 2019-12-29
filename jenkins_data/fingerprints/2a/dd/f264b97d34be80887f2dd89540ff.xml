@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:54:03.110 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>70</number>
+  </original>
+  <md5sum>2addf264b97d34be80887f2dd89540ff</md5sum>
+  <fileName>Docker image sha256:2addf264b97d34be80887f2dd89540fff27db9c0f031c1ed54b71788baeed0a3</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577580843124</timestamp>
+      <imageId>sha256:2addf264b97d34be80887f2dd89540fff27db9c0f031c1ed54b71788baeed0a3</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>70</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>fe3b103d95b3</host>
+          <containerId>fe3b103d95b31e0a34c8602ed18180ed6918280fd5601cac0a1457484ad0a53e</containerId>
+          <containerName>/laughing_ride</containerName>
+          <created>1577580841000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
