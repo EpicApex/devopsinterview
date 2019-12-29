@@ -33,7 +33,7 @@ node {
             app.push("${env.BUILD_NUMBER}")
             // sh 'docker tag e1b3af176309 bonvoyage/devopsinterview:1.0'
             // sh 'docker push bonvoyage/devopsinterview:1.0'
-            app.push("bonvoyage/devopsinterview")
+            app.push("latest")
             } 
             echo "Trying to Push Docker Build to DockerHub"
     }

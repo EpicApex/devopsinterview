@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:40:45.198 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>67</number>
+  </original>
+  <md5sum>b60e59ef7f702c36935780260b2157c7</md5sum>
+  <fileName>Docker image sha256:b60e59ef7f702c36935780260b2157c761e0ccf0b2da2dba41f9ec2b84cdf1c4</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577580045213</timestamp>
+      <imageId>sha256:b60e59ef7f702c36935780260b2157c761e0ccf0b2da2dba41f9ec2b84cdf1c4</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>67</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>d69af4d1101c</host>
+          <containerId>d69af4d1101cc0822a2b4cd8791e6242f3f116ad2badc91565aa972b44f76fce</containerId>
+          <containerName>/quirky_wilson</containerName>
+          <created>1577580043000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
