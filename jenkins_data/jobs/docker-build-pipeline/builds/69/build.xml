@@ -1,0 +1,180 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.36">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>juvenile</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.0.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.0.0">
+              <sha1>b65583cbbb081906e4d3e16a13c5bf21c3c9e005</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>69</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/EpicApex/devopsinterview</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.0.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/docker-build-pipeline</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/EpicApex/devopsinterview</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.6.0"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.78">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.16">
+      <imageIDs>
+        <string>sha256:3b5fdd6aff2f573798a6bf69d0c2df41ead53e182dabd6ab63011b274168ca60</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.21">
+      <names class="sorted-set">
+        <string>devopsinterview</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@2.3.0">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+  </actions>
+  <queueId>121</queueId>
+  <timestamp>1577580645844</timestamp>
+  <startTime>1577580645850</startTime>
+  <result>FAILURE</result>
+  <duration>80152</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    def app
+    
+    stage(&apos;Clone repository&apos;) {
+        /* Cloning the Repository to our Workspace */
+
+        checkout scm
+    }
+
+    stage(&apos;Build image&apos;) {
+        /* This builds the actual image */
+        // sh &quot;docker build -t devopsinterview .&quot;
+        // sh &quot;docker run --rm -d --group-add -v /var/run/docker.sock:/var/run/docker.sock -P devopsinterview&quot;
+
+        app = docker.build(&quot;devopsinterview&quot;)
+    }
+
+    stage(&apos;Test image&apos;) {
+        
+        app.inside {
+            echo &quot;Tests passed&quot;
+        }
+    }
+
+    stage(&apos;Push image&apos;) {
+        /* 
+			You would need to first register with DockerHub before you can push images to your account
+		*/
+        docker.withRegistry(&apos;https://docker.io/&apos;, &apos;dockerhub&apos;){
+            // sh &apos;sudo rm -f ~/.docker/config.json&apos;
+        }
+        docker.withRegistry(&apos;https://registry.hub.docker.com&apos;, &apos;dockerhub&apos;) {
+            app.push(&quot;${env.BUILD_NUMBER}&quot;)
+            // sh &apos;docker tag e1b3af176309 bonvoyage/devopsinterview:1.0&apos;
+            // sh &apos;docker push bonvoyage/devopsinterview:1.0&apos;
+            app.push(&quot;bonvoyage/devopsinterview&quot;)
+            } 
+            echo &quot;Trying to Push Docker Build to DockerHub&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>687066443</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>99241719</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6000311482</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>62330292</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>329017356</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>53</iota>
+    <head>1:53</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.0.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/EpicApex/devopsinterview</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/docker-build-pipeline</workspace>
+      <changelogFile>/var/jenkins_home/jobs/docker-build-pipeline/builds/69/changelog2130006945202673740.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

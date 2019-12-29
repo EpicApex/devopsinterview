@@ -1,0 +1,16 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.78">
+    <parentIds>
+      <string>31</string>
+    </parentIds>
+    <id>32</id>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.RegistryEndpointStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.38"/>
+    <wf.a.TimingAction plugin="workflow-api@2.38">
+      <startTime>1577580720520</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

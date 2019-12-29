@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-12-29 00:51:56.25 UTC</timestamp>
+  <original>
+    <name>docker-build-pipeline</name>
+    <number>69</number>
+  </original>
+  <md5sum>3b5fdd6aff2f573798a6bf69d0c2df41</md5sum>
+  <fileName>Docker image sha256:3b5fdd6aff2f573798a6bf69d0c2df41ead53e182dabd6ab63011b274168ca60</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.16">
+      <timestamp>1577580716039</timestamp>
+      <imageId>sha256:3b5fdd6aff2f573798a6bf69d0c2df41ead53e182dabd6ab63011b274168ca60</imageId>
+      <usages>
+        <entry>
+          <string>docker-build-pipeline</string>
+          <ranges>69</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>daf7e55c98fd</host>
+          <containerId>daf7e55c98fd6ef7babb04440d7e705ba963a95e5e5512be469bfb9007e9180f</containerId>
+          <containerName>/musing_murdock</containerName>
+          <created>1577580714000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

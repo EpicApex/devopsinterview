@@ -12,7 +12,7 @@ node {
         // sh "docker build -t devopsinterview ."
         // sh "docker run --rm -d --group-add -v /var/run/docker.sock:/var/run/docker.sock -P devopsinterview"
 
-        app = docker.build("devopsinterview")
+        app = docker.build("bonvoyage/devopsinterview")
     }
 
     stage('Test image') {
